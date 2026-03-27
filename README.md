@@ -37,18 +37,18 @@ This project focuses on analyzing an E-commerce dataset using SQL to extract mea
 - Aggregate Functions
 - Joins & Subqueries
 ## Project Workflow
-### Data Preparation
+#### Data Preparation
 - Created database and structured tables
 - Cleaned column names and handled formatting issues
-### Exploratory Data Analysis (EDA)
+#### Exploratory Data Analysis (EDA)
 - Total customers, revenue, and orders calculated
 - Customer segmentation (New vs Repeat)
-### Data Analysis & Querying
+#### Data Analysis & Querying
 - Top customers by spending
 - Monthly sales trends
 - Revenue by product category
 - Product ranking using window functions
-### Advanced Analysis
+#### Advanced Analysis
 - Customer Lifetime Value (CLV) calculation
 - Churned customer identification (inactive for 90 days)
 - Running total of daily sales

@@ -67,7 +67,7 @@ This project focuses on analyzing an E-commerce dataset using SQL to extract mea
 3- Import your dataset into tables
 
 4- Run the SQL script file:
-- E_Commerce_project.sql
+- [E_Commerce_project.sql](E_Commerce_project.sql)
   
 5- Execute queries step-by-step to view insights
 ## Connect with Me

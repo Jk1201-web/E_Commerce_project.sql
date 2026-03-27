@@ -12,6 +12,9 @@
  - [Key Insights](https://github.com/Jk1201-web/E_Commerce_project.sql#key-insights)
  - [How to Run Project](https://github.com/Jk1201-web/E_Commerce_project.sql#how-to-run-the-project)
  - [Connect to me](https://github.com/Jk1201-web/E_Commerce_project.sql#connect-with-me)
+    - [LinkedIn](www.linkedin.com/in/jijau-khandale)
+    - [GitHub](https://github.com/Jk1201-web)
+    - [Kaggle](https://www.kaggle.com/jijaumohankhandale)
 ## Project Overview
 This project focuses on analyzing an E-commerce dataset using SQL to extract meaningful business insights. The analysis covers customer behavior, sales performance, product trends, and revenue generation to support data-driven decision-making.
 ## Objective

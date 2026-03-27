@@ -21,6 +21,7 @@ This project focuses on analyzing an E-commerce dataset using SQL to extract mea
 - Understand sales trends and customer purchasing behavior
 - Detect churned customers and calculate customer lifetime value
 ## Dataset
+- [https://www.kaggle.com/datasets/jijaumohankhandale/e-commerce-dataset](https://www.kaggle.com/datasets/jijaumohankhandale/e-commerce-dataset)
 - Database Name: E_Commerce 
 ### Tables Used:
 - customer_table

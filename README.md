@@ -1,4 +1,15 @@
 # E_Commerce_project.sql
+- [Project Overview](https://github.com/Jk1201-web/E_Commerce_project.sql#project-overview)
+- [Objective](https://github.com/Jk1201-web/E_Commerce_project.sql#objective)
+- [Dataset](https://github.com/Jk1201-web/E_Commerce_project.sql#dataset)
+  - [Tables used](https://github.com/Jk1201-web/E_Commerce_project.sql#tables-used)
+- [Tools & Technologies](https://github.com/Jk1201-web/E_Commerce_project.sql#tools--technologies)
+- [Project Woelflow](https://github.com/Jk1201-web/E_Commerce_project.sql#project-workflow)
+   - [Data Preaparation](https://github.com/Jk1201-web/E_Commerce_project.sql#data-preparation)
+   - [Explorotory Data Analysis](https://github.com/Jk1201-web/E_Commerce_project.sql#exploratory-data-analysis-eda)
+   - [Data Analysis & Querying](https://github.com/Jk1201-web/E_Commerce_project.sql#data-analysis--querying)
+   - [Advanced Analysis](https://github.com/Jk1201-web/E_Commerce_project.sql#advanced-analysis)
+ - [Key Insights](https://github.com/Jk1201-web/E_Commerce_project.sql#key-insights)
 ## Project Overview
 This project focuses on analyzing an E-commerce dataset using SQL to extract meaningful business insights. The analysis covers customer behavior, sales performance, product trends, and revenue generation to support data-driven decision-making.
 ## Objective

@@ -59,7 +59,7 @@ This project focuses on analyzing an E-commerce dataset using SQL to extract mea
 - Calculated Customer Lifetime Value (CLV) for business growth strategy
 ## Screenshots
 ### Total number of customer 
-![total number of customer](total-number_of_customer.png)
+![total number of customer](total_number_of_customer.png)
 
 
 

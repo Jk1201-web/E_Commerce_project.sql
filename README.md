@@ -43,7 +43,10 @@ This project focuses on analyzing an E-commerce dataset using SQL to extract mea
 - Detected churned customers who had no activity in last 3 months
 - Calculated Customer Lifetime Value (CLV) for business growth strategy
 ## Screenshots
-How to Run the Project
+
+
+
+## How to Run the Project
 
 1- Open MySQL / SQL Workbench
 - Create a new database:

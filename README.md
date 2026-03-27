@@ -44,6 +44,7 @@ This project focuses on analyzing an E-commerce dataset using SQL to extract mea
 - Calculated Customer Lifetime Value (CLV) for business growth strategy
 ## Screenshots
 How to Run the Project
+
 1- Open MySQL / SQL Workbench
 - Create a new database:
 
@@ -56,7 +57,9 @@ How to Run the Project
 - E_Commerce_project.sql
   
 5- Execute queries step-by-step to view insights
-
+## Connect with Me
+- [![LinkedIn](www.linkedin.com/in/jijau-khandale)
+- [!GitHub](https://github.com/Jk1201-web)
 
 
 

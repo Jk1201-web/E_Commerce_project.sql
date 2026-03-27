@@ -58,7 +58,7 @@ How to Run the Project
   
 5- Execute queries step-by-step to view insights
 ## Connect with Me
-- [[LinkedIn](www.linkedin.com/in/jijau-khandale)
+- [LinkedIn](www.linkedin.com/in/jijau-khandale)
 - [GitHub](https://github.com/Jk1201-web)
 
 

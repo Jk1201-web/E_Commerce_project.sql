@@ -58,6 +58,8 @@ This project focuses on analyzing an E-commerce dataset using SQL to extract mea
 - Detected churned customers who had no activity in last 3 months
 - Calculated Customer Lifetime Value (CLV) for business growth strategy
 ## Screenshots
+### Total number of customer 
+[!total_number_of_customer](total-number_of_customer.png)
 
 
 

@@ -78,6 +78,7 @@ This project focuses on analyzing an E-commerce dataset using SQL to extract mea
 ## Connect with Me
 - [LinkedIn](www.linkedin.com/in/jijau-khandale)
 - [GitHub](https://github.com/Jk1201-web)
+- [Kaggle](https://www.kaggle.com/jijaumohankhandale)
 
 
 

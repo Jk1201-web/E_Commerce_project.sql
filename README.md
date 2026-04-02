@@ -30,53 +30,105 @@ This project focuses on analyzing an E-commerce dataset using SQL to extract mea
 - order_table1
 - order_items_table
 - product_table
+## Business Problems Solved
+1. What is the total revenue generated?
+2. How many total orders were placed?
+3. Who are the top customers by spending?
+4. Which products generate the most revenue?
+5. What is the customer retention rate?
+6. How does revenue grow over time?
 ## Tools & Technologies
 - SQL (MySQL)
 - Data Analysis
 - Window Functions
 - Aggregate Functions
 - Joins & Subqueries
-## Project Workflow
-#### Data Preparation
-- Created database and structured tables
-- Cleaned column names and handled formatting issues
-#### Exploratory Data Analysis (EDA)
-- Total customers, revenue, and orders calculated
-- Customer segmentation (New vs Repeat)
-#### Data Analysis & Querying
-- Top customers by spending
-- Monthly sales trends
-- Revenue by product category
-- Product ranking using window functions
-#### Advanced Analysis
-- Customer Lifetime Value (CLV) calculation
-- Churned customer identification (inactive for 90 days)
-- Running total of daily sales
+## SQL Techniques Used
+- Data Retrieval: `SELECT`, `WHERE`
+- Joins: `INNER JOIN`
+- Aggregations: `SUM`, `COUNT`, `AVG`
+- Grouping: `GROUP BY`, `HAVING`
+- Window Functions: `RANK()`, `SUM()` `OVER()`
+- Subqueries
+  
+## Key Metrics
+| Metric | Value |
+| Total Revenue |	₹92,300 |
+| Total Orders |	7 |
+| Average Order Value	| ₹13,186 |
+| Total Customers |	5 |
+| Repeat Customers | 2 |
+| New Customers	| 3 |
 ## Key Insights
-- Identified top 5 high-value customers contributing maximum revenue
-- Monthly sales trend revealed seasonal patterns in revenue
-- Certain product categories generated significantly higher revenue
-- Repeat customers formed a major share of total revenue
-- Detected churned customers who had no activity in last 3 months
-- Calculated Customer Lifetime Value (CLV) for business growth strategy
+1. Customer Insights
+  - Top customer contributes ~61% of total revenue, indicating high dependency on a single customer
+  - Top 2 customers generate the majority of revenue
+  - Significant variation in Customer Lifetime Value (CLV)
+2. Product Insights
+  - Laptop contributes ~87% of total revenue, making it the dominant product
+  - Other products contribute significantly less revenue
+  - Indicates lack of product diversification
+3. Customer Retention Insights
+  - Majority of customers are new (3 out of 5)
+  - Low repeat customer count indicates weak retention
+4. Revenue Insights
+  - Revenue is driven by a few high-value transactions
+  - Sales trend is irregular and not evenly distributed
+  - Running total shows step-wise growth pattern
+## Business Recommendations
+- Retain high-value customers through loyalty programs and personalized offers
+- Reduce dependency on a single product by promoting other categories
+- Increase order frequency through discounts and bundle offers
+- Improve customer retention with targeted marketing campaigns
+- Optimize inventory planning based on product demand
+  
 ## How to Run the Project
 
-1- Open MySQL / SQL Workbench
-- Create a new database:
-
-2- CREATE DATABASE E_Commerce;
-- USE E_Commerce;
+1- Open MySQL / SQL Workbenc
  
-3- Import your dataset into tables
+2- Import your dataset into tables
 
-4- Run the SQL script file:
+3- Run the SQL script file:
 - [E_Commerce_project.sql](E_Commerce_project.sql)
   
-5- Execute queries step-by-step to view insights
+4- Execute queries step-by-step to view insights
+## Project Workflow
+- Data Collection
+- Data Cleaning
+- Data Understanding
+- Data Analysis (SQL)
+- Insight Generation
+- Business Recommendations
+## Sample SQL Query
+Top Customers by Revenue
+```
+SELECT 
+    c.customer_name,
+    SUM(oi.quantity * p.price) AS total_spent
+FROM customers c
+JOIN orders o ON c.customer_id = o.customer_id
+JOIN order_items oi ON o.order_id = oi.order_id
+JOIN products p ON oi.product_id = p.product_id
+GROUP BY c.customer_name
+ORDER BY total_spent DESC;
+
+```
+## Project Structure
+Ecommerce-Sales-Analytics/
+ ┣ 📁 Dataset
+ ┃ ┗ ecommerce_data.csv
+ ┣ 📁 SQL
+ ┃ ┗ analysis_queries.sql
+ ┣ 📁 Docs
+ ┃ ┗ insights.md
+ ┗ README.md
+ 
 ## Connect with Me
 - [LinkedIn](www.linkedin.com/in/jijau-khandale)
 - [GitHub](https://github.com/Jk1201-web)
 - [Kaggle](https://www.kaggle.com/jijaumohankhandale)
+  
+*If you found this project useful, consider giving it a star!*
 
 
 

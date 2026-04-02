@@ -3,15 +3,17 @@
 - [Objective](https://github.com/Jk1201-web/E_Commerce_project.sql#objective)
 - [Dataset](https://github.com/Jk1201-web/E_Commerce_project.sql#dataset)
   - [Tables used](https://github.com/Jk1201-web/E_Commerce_project.sql#tables-used)
+- [Business Problem Solved](https://github.com/Jk1201-web/E_Commerce_project.sql#business-problems-solved)
 - [Tools & Technologies](https://github.com/Jk1201-web/E_Commerce_project.sql#tools--technologies)
+- [SQL Techniques Used](https://github.com/Jk1201-web/E_Commerce_project.sql#sql-techniques-used)
+- [Key Metrics](https://github.com/Jk1201-web/E_Commerce_project.sql#key-metrics)
+- [Key Insights](https://github.com/Jk1201-web/E_Commerce_project.sql#key-insights)
+- [Business Recommendation](https://github.com/Jk1201-web/E_Commerce_project.sql#business-recommendations)
+- [How to Run the Project](https://github.com/Jk1201-web/E_Commerce_project.sql#how-to-run-the-project)
 - [Project Workflow](https://github.com/Jk1201-web/E_Commerce_project.sql#project-workflow)
-   - [Data Prepration](https://github.com/Jk1201-web/E_Commerce_project.sql#data-preparation)
-   - [Explorotory Data Analysis](https://github.com/Jk1201-web/E_Commerce_project.sql#exploratory-data-analysis-eda)
-   - [Data Analysis & Querying](https://github.com/Jk1201-web/E_Commerce_project.sql#data-analysis--querying)
-   - [Advanced Analysis](https://github.com/Jk1201-web/E_Commerce_project.sql#advanced-analysis)
- - [Key Insights](https://github.com/Jk1201-web/E_Commerce_project.sql#key-insights)
- - [How to Run Project](https://github.com/Jk1201-web/E_Commerce_project.sql#how-to-run-the-project)
- - [Connect to me](https://github.com/Jk1201-web/E_Commerce_project.sql#connect-with-me)
+- [Sample SQL Query](https://github.com/Jk1201-web/E_Commerce_project.sql#sample-sql-query)
+- [Project Structure](https://github.com/Jk1201-web/E_Commerce_project.sql#project-structure)
+- [Connect to me](https://github.com/Jk1201-web/E_Commerce_project.sql#connect-with-me)
     - [LinkedIn](www.linkedin.com/in/jijau-khandale)
     - [GitHub](https://github.com/Jk1201-web)
     - [Kaggle](https://www.kaggle.com/jijaumohankhandale)
@@ -115,12 +117,16 @@ ORDER BY total_spent DESC;
 ```
 ## Project Structure
 Ecommerce-Sales-Analytics/
- ┣ 📁 Dataset
+ ┣ 📁 Dataset  
+ 
  ┃ ┗ ecommerce_data.csv
+ 
  ┣ 📁 SQL
  ┃ ┗ analysis_queries.sql
+ 
  ┣ 📁 Docs
  ┃ ┗ insights.md
+ 
  ┗ README.md
  
 ## Connect with Me

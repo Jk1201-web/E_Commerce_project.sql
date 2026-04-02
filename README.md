@@ -55,6 +55,7 @@ This project focuses on analyzing an E-commerce dataset using SQL to extract mea
   
 ## Key Metrics
 | Metric | Value |
+|------|------|
 | Total Revenue |	₹92,300 |
 | Total Orders |	7 |
 | Average Order Value	| ₹13,186 |
